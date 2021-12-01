@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+#main :is(h1, h2, h3, h4, h5, h6) {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#main > .title {
+  text-align: center;
+  padding-top: 22px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+#main p.answer {
+  padding-left: 15px;
+}
+
+#main .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images img {
+  filter: opacity(0.8);
+}
+.images img:hover {
+  filter: opacity(1);
+}
+.open-source {
+  width: 150px;
+}
+.images .github {
+  width: 60px;
+}
+
+
+#main .clearification {
+  padding-top: 2rem;
+  font-weight: 500;
+}
+
+@media (max-width: 400px) {
+  #main > .title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
