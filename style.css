@@ -64,6 +64,18 @@ img {
   font-weight: 500;
 }
 
+
+.not-found {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.not-found h2 {
+  font-weight: 500;
+}
+
 @media (max-width: 400px) {
   #main > .title {
     font-weight: 600;
