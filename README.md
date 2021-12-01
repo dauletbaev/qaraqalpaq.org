@@ -1,0 +1,1 @@
+# Qaraqalpaq.org saytı
