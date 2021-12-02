@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.qaraqalpaq.org",
     title: "Qaraqalpaq.org",
   },
   plugins: [
@@ -26,5 +26,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown",
+        path: "./content/",
+      },
+    },
   ],
-};
+}

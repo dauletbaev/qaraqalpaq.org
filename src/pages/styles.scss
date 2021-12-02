@@ -1,0 +1,86 @@
+$font-stack: sans-serif;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#main {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 60rem;
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    padding-left: 15px;
+  }
+
+  .clearification {
+    padding-top: 2rem;
+    font-weight: 500;
+  }
+}
+
+#main > h1 {
+  text-align: center;
+  padding-top: 22px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    filter: opacity(0.8);
+  }
+  img:hover {
+    filter: opacity(1);
+  }
+
+  .open-source {
+    width: 150px;
+  }
+  .github {
+    width: 60px;
+  }
+}
+
+.not-found {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.not-found h2 {
+  font-weight: 500;
+}
+
+@media (max-width: 400px) {
+  #main > h1 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
