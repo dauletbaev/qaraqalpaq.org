@@ -6,8 +6,5 @@
 * [WEB](#web)
   * [Qaraqalpaq.org](#qaraqalpaq)
   * [Web Translator Data Set Collector](#web-translator-data-set-collector)
-  * [Editors](#editors)
-  * [Documentation](#documentation)
-
 * [ML](#ml)
   * [Translator Data Set Collector](#translator-data-set-collector)
