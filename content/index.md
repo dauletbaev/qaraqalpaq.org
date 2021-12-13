@@ -1,8 +1,10 @@
 ---
-title: Test
+title: Bas bet
 ---
 
 # „Qaraqalpaq.org“ qaraqalpaqsha ashıq kodlı baǵdarlamalardı qollap-quwatlaw\*
+
+[Proektlerdi koriw](/proektler)
 
 ### Ne ushın?
 
@@ -18,3 +20,6 @@ Soft ónim jaratıw (mobil baǵdarlama, vebsayt, kitapxana jaratıw) hám onı a
 Eger qandayda vebsayt yaki kitapxana jaratsańız kitapxana qollanbasın bizdiń domenimizge sub-domen etip paydalanıw.
 
 \* Materiallıq tárepleme emes al baǵdarlama maqsetin hám programmalastırıwdaǵı qıyınshılıqlarǵa kómeklesiw názerde tutılıp atır.
+
+[![Github](/img/github-dark.png)](https://github.com/qaraqalpaq)
+[![Open Source](/img/open-source.png)](https://opensource.org)

@@ -1,8 +1,8 @@
 # Qaraqalpaq.org
 
-[![Qaraqalpaq](https://img.shields.io/endpoint?url=https%3A%2F%2Fqaraqalpaq-org-default-rtdb.firebaseio.com%2Fschema.json)](https://qaraqalpaq.org/)
+[![Qaraqalpaq](https://img.shields.io/endpoint?url=https%3A%2F%2Fqaraqalpaq-org-default-rtdb.firebaseio.com%2Fschema.json)](/)
 
-[Qaraqalpaqsha](https://qaraqalpaq.org) ashıq kodlı baǵdarlamalar.
+Qaraqalpaqsha ashıq kodlı baǵdarlamalar.
 
 - [WEB](#web)
   - [Qaraqalpaq.org](#qaraqalpaq)
